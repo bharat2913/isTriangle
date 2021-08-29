@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun with Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link " href="./index.html">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="./quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="./calcHyop.html">Calculate Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Triangle Quiz</h1>
+
+    <form class="quizForm">
+        <div class="questionContainer">
+            <p>What is the third angle for the triangle where angle1 = 45deg and angle2 = 45deg?</p>
+
+            <label><input type="radio" name="question1" value="45deg" />45deg</label>
+            <label><input type="radio" name="question1" value="60deg" />60deg</label>
+            <label><input type="radio" name="question1" value="90deg" />90deg</label>
+        </div>
+
+        <div class="questionContainer">
+            <p>If a triangle has an angle 90deg, what is it called</p>
+
+            <label><input type="radio" name="question2" value="acute" />Acute</label>
+            <label><input type="radio" name="question2" value="obtuse" />Obtuse</label>
+            <label><input type="radio" name="question2" value="right angled" />Right Angled</label>
+        </div>
+    </form>
+    <button id="submitAnswers">Submit</button>
+    <div id="output"></div>
+
+    <script src="./quiz.js"></script>
+</body>
+
+</html>
