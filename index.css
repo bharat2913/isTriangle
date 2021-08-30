@@ -112,7 +112,7 @@ body {
     padding: 5px;
 }
 
-#isTriangleBtn, #submitAnswers, #hypotenuseBtn {
+#isTriangleBtn, #submitAnswers, #hypotenuseBtn, #areaBtn {
     margin: 1rem;
     padding: 5px 20px; 
     background-color: darksalmon;
